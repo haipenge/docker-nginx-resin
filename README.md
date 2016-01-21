@@ -35,5 +35,10 @@ docker-nginx-resin
 		   Dockerfile -> From ?
 	    2).其它版本
 		   nginx-install.sh,download.sh中均有版本控制配置，修改需要的版本即可。
+      8.关于作者
+	    haipenge[at]gmail.com
+		做过几年码农,躺过移动互联网这趟浑水,18公岁的时候,写了这个docker-nginx-resin的docker.
+		http://www.faceye.com
+		
 		
       
