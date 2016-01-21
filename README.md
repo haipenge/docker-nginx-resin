@@ -1,10 +1,10 @@
 
 # docker-nginx-resin
 centos 6 with nginx and resin
-==============
-   1.解决问题
-      容器配置简单重复，测试环境不统一
-   2.相关技术
+
+1.解决问题
+  容器配置简单重复，测试环境不统一.
+2.相关技术
      docker,centos,nginx,resin
    3.如何使用
      1).前置条件
