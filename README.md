@@ -1,4 +1,5 @@
-nx-resin
+
+# docker-nginx-resin
 centos 6 with nginx and resin
 
 1.解决问题
@@ -23,4 +24,3 @@ centos 6 with nginx and resin
     $ ./download.sh
 4.常见问题：
   访问:http://www.faceye.com
-
