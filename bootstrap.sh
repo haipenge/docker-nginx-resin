@@ -4,6 +4,8 @@
 ##########################################################
 ##启动脚本
 ROOT=$(cd $(dirname '$0');pwd)
-sh nginx-install.sh
-sh download.sh
+cd $ROOT
+./nginx-install.sh
+cd $ROOT
+./download.sh
 exit 0
