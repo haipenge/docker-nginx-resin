@@ -23,4 +23,17 @@ docker-nginx-resin
         $ ./download.sh
       5.常见问题：
         访问:http://www.faceye.com
+	  6.版本说明：
+	    1).centos:6
+		2).nginx:1.9.9,with openssl
+		3).resin:4.0.44
+		4).jdk:1.7.80
+		5).ant:1.9
+		6).maven.3.3
+	  7.如何修改安装版本
+	    1).Centos
+		   Dockerfile -> From ?
+	    2).其它版本
+		   nginx-install.sh,download.sh中均有版本控制配置，修改需要的版本即可。
+		
       
