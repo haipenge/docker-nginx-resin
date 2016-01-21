@@ -20,7 +20,7 @@ MAINTAINER docker_user haipenge@gmail.com
 ######################## End Version Config ##############################
 RUN yum update -y && \
  yum install -y epel-release && \
- yum  install -y gcc automake autoconf libtool make gcc-c++ passwd iproute python-setuptools hostname inotify-tools yum-utils which wget curl openssh-server git
+ yum  install -y gcc automake autoconf libtool make gcc-c++ passwd iproute python-setuptools hostname inotify-tools yum-utils which wget curl openssh-server git tar
 RUN easy_install supervisor
 RUN echo "root:root" | chpasswd
 RUN ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key
