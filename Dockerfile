@@ -1,4 +1,4 @@
-################ CentOS Base Java Develop Docker ################
+################# CentOS Base Java Develop Docker ################
 #Desc:Docker of CentOS for Java App Run
 #Include:
 #1).CentOS
